@@ -1,0 +1,20 @@
+var dummyDat = {"keypoints" :
+[
+{"score":0.8, "part": "nose", "position":{"x":167, "y":188}},
+{"score":0.8, "part": "leftEye", "position":{"x":175, "y":181}},
+{"score":0.8, "part": "rightEye, "position":{"x":170, "y":178}},
+{"score":0.8, "part": "leftEar", "position":{"x":192, "y":182}},
+{"score":0.8, "part": "rightEar", "position":{"x":175, "y":184}},
+{"score":0.8, "part": "leftShoulder", "position":{"x":202, "y":218}},
+{"score":0.8, "part": "rightShoulder", "position":{"x":195, "y":218}},
+{"score":0.8, "part": "leftElbow", "position":{"x":200, "y":276}},
+{"score":0.8, "part": "rightElbow", "position":{"x":192, "y":270}},
+{"score":0.8, "part": "leftWrist", "position":{"x":147, "y":307}},
+{"score":0.8, "part": "rightWrist", "position":{"x":156, "y":305}},
+{"score":0.8, "part": "leftHip", "position":{"x":212, "y":318}},
+{"score":0.8, "part": "rightHip", "position":{"x":209, "y":317}},
+{"score":0.8, "part": "leftKnee", "position":{"x":237, "y":389}},
+{"score":0.8, "part": "rightKnee", "position":{"x":179, "y":389}},
+{"score":0.8, "part": "leftAnkle", "position":{"x":263, "y":464}},
+{"score":0.8, "part": "rightAnkle", "position":{"x":165, "y":454}}
+]};

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- <title>FitSio - Your Virtual Exercise Companion</title> -->
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <style type="text/css">
+   .side-nav {
+       transform: translateX(0%) !important;
+   }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper cyan darken-1">
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+      <a href="#" class="brand-logo">iTherapy</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"> LOGOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="images/office.jpeg">
+        </div>
+        <a href="#user"><img class="circle" src="images/elon.png"></a>
+        <a href="#name"><span class="white-text name">Haziq Doe</span></a>
+        <a href="#email"><span class="white-text email">haziq@gmail.com</span></a>
+      </div>
+    </li>
+    <li><a href="#!"><i class="material-icons">account_circle</i>Profile</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect" href="form.html"> Submission </a></li>
+    <li><a class="waves-effect" href="record.html"> Record </a></li>
+    <li><a class="waves-effect" href="admin.html"> Analytics </a></li>
+  </ul>
+
+
+  <div id="content">
+    <div class="card horizontal" style="width: 100%; height: 600px; position:">
+      <div class="webgl-content" style="width: 960px; height: 600px">
+        <div id="gameContainer"></div>
+        <div class="footer">
+          <!-- <div class="webgl-logo"></div> -->
+          <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+          <div class="title">3D Avatar Model</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<div class="container">
+  <div class ="row">
+   <div class = "col s12">
+     <button class="btn waves-effect waves-light white grey-text text-darken-4" id = "start" name="action">
+       START
+       <i class="material-icons right">play_arrow</i>
+     </button>
+     <button style ="margin-left:10px;" class="btn waves-effect waves-light red darken-1 white-text" id = "stop" name="action">
+       STOP
+       <i class="material-icons right">stop</i>
+     </button>
+ <!-- <div class="myButton" id = "start">START</div>
+ <div class="stop" id = "stop">STOP</div> -->
+   </div>
+ </div>
+ </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+
+</body>
+
+<footer class="page-footer cyan">
+  <div class="footer-copyright">
+    <div class="container">
+    © 2019 Copyright iTherapy
+    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
+
+</html>

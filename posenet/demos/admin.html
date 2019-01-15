@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style type="text/css">
+  .side-nav {
+      transform: translateX(0%) !important;
+  }
+</style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper cyan darken-1">
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+      <a href="#" class="brand-logo">iTherapy</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#" > LOGOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpeg">
+      </div>
+      <a href="#user"><img class="circle" src="images/elon.png"></a>
+      <a href="#name"><span class="white-text name">Haziq Doe</span></a>
+      <a href="#email"><span class="white-text email">haziq@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">account_circle</i>Profile</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="form.html"> Submission </a></li>
+    <li><a class="waves-effect" href="record.html"> Record </a></li>
+    <li><a class="waves-effect" href="admin.html"> Analytics </a></li>
+  </ul>
+
+
+
+
+  <!--  Scripts-->
+
+<div class ="row" style ="margin: 5px;">
+  <div class ="col s6 m6 l6" >
+    <div class = "z-depth-1">
+    <div id="oGender" style="height:300px;"></div>
+  </div>
+  </div>
+  <div class ="col s6 m6 l6">
+    <div class = "z-depth-1">
+    <div id="oAge" style="height:300px;"></div>
+      </div>
+  </div>
+</div>
+<div class ="row" style ="margin: 5px;">
+  <div class ="col s6 m6 l6" >
+    <div class = "z-depth-1">
+    <div id="oAtt" style="height:300px;"></div>
+  </div>
+  </div>
+  <div class ="col s6 m6 l6">
+    <div class = "z-depth-1">
+    <div id="oPerform" style="height:300px;"></div>
+      </div>
+  </div>
+</div>
+<div class ="row" style ="margin: 5px;">
+  <div class ="col s6 m6 l6" >
+    <div class = "z-depth-1">
+    <div id="oType" style="height:300px;"></div>
+  </div>
+  </div>
+  <div class ="col s6 m6 l6">
+    <div class = "z-depth-1">
+    <div id="oAvgTime" style="height:300px;"></div>
+      </div>
+  </div>
+</div>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+  <script type="text/javascript" src="js/jason.js"></script>
+  <script type="text/javascript" src="js/oAll.js"></script>
+  </body>
+</html>

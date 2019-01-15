@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <style type="text/css">
+  .side-nav {
+      transform: translateX(0%) !important;
+  }
+</style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper cyan darken-1">
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+      <a href="#" class="brand-logo">iTherapy</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#" > LOGOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpeg">
+      </div>
+      <a href="#user"><img class="circle" src="images/elon.png"></a>
+      <a href="#name"><span class="white-text name">Haziq Doe</span></a>
+      <a href="#email"><span class="white-text email">haziq@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">account_circle</i>Profile</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="camera.html"> Session</a></li>
+    <li><a class="waves-effect" href="#"> Analytics</a></li>
+    <li><a class="waves-effect" href="#"> Consultation</a></li>
+  </ul>
+
+  <div class = "row">
+    <div class = "col s6">
+      <table class="highlight">
+        <tbody>
+          <tr>
+            <td>NAME </td>
+            <td>:</td>
+            <td>Haziq Doe</td>
+          </tr>
+          <tr>
+            <td>MEDICAL ID</td>
+            <td>:</td>
+            <td> 12-346-6753</td>
+          </tr>
+          <tr>
+            <td>GENDER </td>
+            <td>:</td>
+            <td> Male </td>
+          </tr>
+          <tr>
+            <td>DATE OF BIRTH</td>
+            <td>:</td>
+            <td> 12/7/1993 </td>
+          </tr>
+          <tr>
+            <td>AGE</td>
+            <td>:</td>
+            <td> 26 </td>
+          </tr>
+          <tr>
+            <td>TYPE OF INJURY</td>
+            <td>:</td>
+            <td >Anterior Cruciate Ligament</td>
+          </tr>
+          <tr>
+            <td>STARTING DATE</td>
+            <td>:</td>
+            <td >08/11/2018</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class = "col s6" >
+      <div class = "container">
+      <div class = "row" style= "margin-top:75px;">
+        <div class = "col s6" >
+          <a class="btn-floating btn-large waves-effect waves-light cyan" style ="margin-left:50px;"><h5>4</h5></a>
+        </div>
+        <div class = "col s6" >
+      <a class="btn-floating btn-large waves-effect waves-light cyan" style ="margin-left:20px;"><h5>6</h5></a>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "col s6" >
+        <h6>Session completed</h6>
+      </div>
+      <div class = "col s6" >
+      <h6>Session due</h6>
+    </div>
+    </div>
+
+    <div class = "row">
+      <div class = "col s12" >
+        <button class="waves-effect waves-light white black-text btn" style = "margin-left:60px;">UPCOMING SESSION : 1/12/2019</button>
+      </div>
+      <div class = "col s12" >
+      <button class="waves-effect waves-light white cyan-text btn"style = "margin-left:145px; margin-top:30px;">PRINT</button>
+    </div>
+    </div>
+
+
+
+    </div>
+    </div>
+  </div>
+
+  <div class ="row" style ="margin: 5px;">
+    <div class ="col s6 m6 l6" >
+      <div class = "z-depth-1">
+      <div id="att" style="height:300px;"></div>
+    </div>
+    </div>
+    <div class ="col s6 m6 l6">
+      <div class = "z-depth-1">
+      <div id="perform" style="height:300px;"></div>
+        </div>
+    </div>
+  </div>
+  <div class ="row" style ="margin: 5px;">
+    <div class ="col s6 m6 l6" >
+      <div class = "z-depth-1">
+      <div id="dura" style="height:300px;"></div>
+    </div>
+    </div>
+    <div class ="col s6 m6 l6">
+      <div class = "z-depth-1">
+      <div id="timex" style="height:300px;"></div>
+        </div>
+    </div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" src="js/oUser.js"></script>
+  </body>
+</html>

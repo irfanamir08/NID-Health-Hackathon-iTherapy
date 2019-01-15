@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="/materialize.2987ecb4.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="/style.78032849.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="/custom.d5cc83c2.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <style>@media only screen and (max-width: 600px) {
+    .footer-text, .dg {
+      display: none;
+    }
+  }</style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper cyan darken-1">
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+      <a href="#" class="brand-logo">iTherapy</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"> LOGOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="/office.44761fb3.jpeg">
+      </div>
+      <a href="#user"><img class="circle" src="/elon.0b6e347f.png"></a>
+      <a href="#name"><span class="white-text name">Haziq Doe</span></a>
+      <a href="#email"><span class="white-text email">haziq@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">account_circle</i>Profile</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="/camera.html"> Session</a></li>
+    <li><a class="waves-effect" href="/camera.html"> Analytics</a></li>
+  </ul>
+
+  <div class="row" style="margin:5px !important; padding:0px !important;">
+    <div class="col s6" style="margin:5px !important; padding:0px !important;">
+      <div id="main" style="display:none;">
+          <video id="video" playsinline="" style="-moz-transform: scaleX(-1);
+          -o-transform: scaleX(-1);
+          -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+          display: none;">
+          </video>
+          <canvas id="output">
+      </canvas></div>
+    </div>
+    <div class="col s5 z-depth-1 recordoutput" s6"="" style="margin:5px !important; padding:0px !important;">
+      <p id="keyoutput"></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s6">
+    <button class="btn waves-effect waves-light" id="start" name="action"> START RECORDING
+      <i class="material-icons right">fiber_manual_record</i>
+    </button>
+    <!-- <div class="stop" id = "stop">STOP</div> -->
+    </div>
+
+    <div class="col s6">
+    <button style="margin-left:5px;" class="btn waves-effect waves-light white cyan-text text-lighten-3" id="copy" name="action">
+      COPY
+    </button>
+    </div>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="/record.185f2f3f.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="/init.72abecf8.js"></script>
+  </body>
+</html>
